@@ -1,0 +1,4 @@
+<div ng-controller="FlowableZcformReferenceDisplayCtrl">
+	<span ng-if="property.value && property.value.id">{{zcform.name}}</span>
+	<span ng-if="!property.value || !property.value.id" translate>PROPERTY.FORMREFERENCE.EMPTY</span>
+</div>
